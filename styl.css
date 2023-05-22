@@ -1,0 +1,292 @@
+:root {
+    --light-green-color: #65D270;
+    --dark-green-color: #063F0B;
+    --light-color: #44F044;
+    --black-color: #000000;
+    --brown-color: #5F3209;
+
+}
+*,
+*::after
+*::before {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: "inter", sans-serif;
+}
+
+.wrapper {
+    max-width: 969px;
+    margin: 0 auto;
+}
+
+
+/* Buttons */
+
+.btn  {
+    padding: 16px 32px;
+    border-radius: 24px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+}
+
+.btn.dark {
+    background: var(--black-color);
+}
+
+/* Header */
+
+header {
+    
+background: url(/images/backgr\ page\ 1.png);
+height: 115vh;
+width: 100%; 
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 1134px;
+    top: 36px;
+    z-index: 100;
+
+}
+nav .logo {
+    
+font-family: "Raleway", sans-serif;
+font-weight: 900;
+font-size: 40px;
+color: #FFFFFF;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+background: #000000;
+box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+
+}
+nav ul {
+    display:flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+
+}
+/*homepage*/
+.homepage {
+    display:flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepage .centre h1 {
+
+font-family: "Raleway", sans-serif;
+font-weight: 900;
+font-size: 60px;
+line-height: 70px;
+color: #FFFFFF;
+
+}
+
+.homepage .centre p {
+    position: absolute;
+    width: 517.69px;
+    height: 65.28px;
+    left: 376.22px;
+    top: 392.4px;
+   color: #FFFFFF;
+
+   
+}
+
+
+/* second page */
+
+.second-page h1 {
+    text-align: center;
+    padding: 100px 0;
+    font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 900;
+ font-size: 60px;
+ line-height: 70px;
+
+ color: #000000;
+
+}
+
+
+
+.second-page .pictures {
+    display: flex;
+    gap: 70px;
+
+}
+
+.second-page .content {
+    width: 242px;
+ height: 47px;
+
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 900;
+ font-size: 40px;
+ line-height: 47px;
+ 
+ color: #5F3209;
+
+}
+
+
+/* Third page */
+
+main {
+    background: url(images/backgr\ page\ 3.png);
+    width: 100%;
+    height: 115vh;
+    
+}
+
+.third-page h2 {
+    text-align: center;
+    margin-top:  35px;
+    margin-bottom: 10px;
+    font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 900;
+ font-size: 60px;
+ line-height: 70px;
+
+ color: #000000;
+}
+
+.third-page .pictures {
+    
+    display: flex;
+    gap: 70px;
+
+}
+
+.third-page .content {
+    width: 242px;
+    height: 47px;
+   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #5F3209;
+
+}
+
+
+
+
+.third-page .content .info {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+
+/* footer */
+
+footer {
+    background: var(--light-green-color);
+    color: #000;
+    margin-top: 100px;
+    padding-top: 100px 0;
+}
+ footer .links-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+ footer.social {
+    margin-left: 30px
+}
+ footer .copyright {
+    margin-top:  35px;
+}
+
+/*last page*/
+
+ .btn.big {
+    position: relative;
+    height: 120px;
+    width: 300px;
+    transform-style: preserve-3d;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+ .btn:hover {
+    transform: rotateX(-90deg) translateY(75px);
+
+}
+
+ .side {
+    position: absolute;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+ .default-side {
+    background-color: #063F0B;
+    border: 10px solid #063F0B;
+    color: #FFFFFF;
+    
+}
+
+ .hover-side {
+    color: #FFFFFF;
+    background-color: #44F044;
+    transform: rotateX(90deg) translateZ(75px);
+}
+
+
+  main {
+   background: url(images/backgr\ page\ 3.png);
+   width: 100%;
+    height: 115vh;
+}
+
+.final-page h2 {
+    text-align: center;
+    padding: 100px;
+    font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 900;
+ font-size: 60px;
+ line-height: 70px;
+
+ color: #000000;
+
+}
+
+
+
