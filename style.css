@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto 10%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.title {
+  padding: 10px;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo,
+.navlinks a {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 10px;
+  position: sticky;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 32px;
+}
+h1,
+h2 {
+  font-family: 'Merriweather', serif;
+  margin-top: 20px;
+}
+
+p,
+h3 {
+  font-family: sans-serif;
+  padding: 10px 0;
+  line-height: 24px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.watering-feeding {
+  display: flex;
+  justify-content: center;
+}
+
+.spring-summer,
+.autumn-winter {
+  text-align: center;
+
+  margin: 10px 30px;
+  padding: 10px;
+  width: 50%;
+  background-color: #ebffec;
+  border-radius: 20px;
+}
+
+.intro {
+  background-color: #d5ffd8;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.fact-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.did-you-know,
+.fun-fact {
+  font-size: 28px;
+  text-align: center;
+  margin: 20px;
+  background-color: #ffdcaf;
+  border-radius: 20px;
+  width: 70%;
+  cursor: pointer;
+  font-family: 'Merriweather';
+  margin-bottom: 30px;
+  height: 50px;
+  border: 3px solid #696969;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
